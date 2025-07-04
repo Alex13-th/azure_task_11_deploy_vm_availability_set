@@ -8,7 +8,7 @@ $subnetAddressPrefix = "10.0.0.0/24"
 $sshKeyName = "linuxboxsshkey"
 $sshKeyPublicKey = Get-Content "~/.ssh/id_ed25519.pub"
 $vmName = "matebox"
-$vmImage = "Ubuntu2204"
+$vmImage = "Canonical:UbuntuServer:22.04-LTS:latest'"
 $vmSize = "Standard_B1s"
 $availabilitySetName = "mateavalset"
 
